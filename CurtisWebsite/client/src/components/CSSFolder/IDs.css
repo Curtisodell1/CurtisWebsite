@@ -1,0 +1,37 @@
+#TopRowContainer{
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2.5vw solid black; 
+}
+
+#TopRowLeft{
+    width: 30vw;
+    background-color: white;
+    height: 15vh;
+    display: flex;
+}
+
+#TopRowMid{
+    width: 50vw;
+    background-color: white;
+    height: 30vh;
+}
+
+#TopRowRight{
+    width: 20vw;
+    background-color: gold;
+    height: 30vh;
+}
+
+
+#SpacerLeft{
+    width: 2.5vw;
+    background-color: black;
+}
+
+#SpacerRight{
+    width: 2.5vw;
+    background-color: black;
+}
