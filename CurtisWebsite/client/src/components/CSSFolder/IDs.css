@@ -1,37 +1,120 @@
 #TopRowContainer{
-    height: 30vh;
+    height: 15vh;
     background-color: white;
     display: flex;
     flex-direction: row;
     border-bottom: 2.5vw solid black; 
 }
 
-#TopRowLeft{
-    width: 30vw;
-    background-color: white;
-    height: 15vh;
+    #BoxOne{
+        width: 27.5vw;
+        background-color: white;
+        height: 15vh;
+    }
+
+    #BoxTwo{
+        width: 50vw;
+        background-color: white;
+        height: 15vh;
+    }
+
+    #BoxThree{
+        width: 22.5vw;
+        background-color: gold;
+        height: 15vh;
+    }
+
+
+    #SpacerLeft{
+        width: 2.5vw;
+        background-color: black;
+    }
+
+    #SpacerRight{
+        width: 2.5vw;
+        background-color: black;
+    }
+
+#BodyContainer{
+    height: 200vh;
+    width: 100vw;
     display: flex;
+    flex-direction: row;
 }
+#LeftColumnContainer{
+    background-color: green;
+    height: 200vh;
+    width: 22.5vw;
+    display: flex;
+    flex-direction: row;
+}
+    #BoxFourAndSevenContainer{
+        #BoxFour{
+            background-color: white;
+            height: 75vh;
+            width: 20vw;
+            border-bottom: 5vh solid black;
+        }
+    
+        #BoxSeven{
+            background-color: white;
+            height: 125vh;
+            width: 20vw;
+            border-bottom: 5vh solid black;
+        }
+    }
+    
 
-#TopRowMid{
-    width: 50vw;
+    #MiddleLeftSpacer{
+        background-color: black;
+        height: 210vh;
+        width: 2.5vw;
+    }
+
+#MiddleAndRightContainer{
     background-color: white;
-    height: 30vh;
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
 }
+    #BoxFive{
+        background-color: Red;
+        height: 100vh;
+        width: 52.5vw;
+    }
 
-#TopRowRight{
-    width: 20vw;
-    background-color: gold;
-    height: 30vh;
-}
+    #MiddleRightSpacer{
+        background-color: black;
+        height: 155vh;
+        width: 2.5vw;
+    }
+    
+    #BoxSixEightAndElevenContainer{
+        width: 22.5vw;
+        height: 200vh;
+        background-color: gray;
+    }
+        #BoxSix{
+            width: 22.5vw;
+            height: 55vh;
+            background-color: gold;
+        }
 
+        #BoxEight{
+            width: 22.5vw;
+            height: 60vh;
+            background-color: white;
+        }
 
-#SpacerLeft{
-    width: 2.5vw;
-    background-color: black;
-}
+        #BoxEleven{
+            width: 22.5vw;
+            height: 25vh;
+            background-color: white;
+        }
 
-#SpacerRight{
-    width: 2.5vw;
-    background-color: black;
-}
+        .RightColumnVerticalSpacer{
+            height: 5vh;
+            width: 22.5vw;
+            background-color: black;
+        }
