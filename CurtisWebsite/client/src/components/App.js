@@ -6,16 +6,33 @@ function App() {
   return (
     <div>
       <div id="TopRowContainer">
-        <div id="TopRowLeft"></div>
+        <div id="BoxOne"></div>
         <div id="SpacerLeft"></div>
-        <div id="TopRowMid"></div>
+        <div id="BoxTwo"></div>
         <div id="SpacerRight"></div>
-        <div id="TopRowRight"></div>
+        <div id="BoxThree"></div>
       </div>
-     
-      <div id="LeftColumnContainer"></div>
-      <div></div>
-      <div></div>
+      <div id="BodyContainer">
+        <div id="LeftColumnContainer">
+          <div id="BoxFourAndSevenContainer">
+            <div id="BoxFour"></div>
+            <div id="BoxSeven"></div>
+          </div>
+          <div id="MiddleLeftSpacer"></div>
+        </div>
+        <div id="MiddleAndRightContainer">
+          <div id="BoxFive"></div>
+          <div id="MiddleRightSpacer"></div>
+          <div id="BoxSixAndEightContainer">
+            <div id="BoxSix"></div>
+            <div className="RightColumnVerticalSpacer"></div>
+            <div id="BoxEight"></div>
+            <div className="RightColumnVerticalSpacer"></div>
+            <div id="BoxEleven"></div>
+            <div className="RightColumnVerticalSpacer"></div>
+          </div>
+        </div>
+      </div>
       <div></div>
       <div></div>
       <div></div>
