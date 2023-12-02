@@ -3,7 +3,8 @@
     background-color: white;
     display: flex;
     flex-direction: row;
-    border-bottom: 2.5vw solid black; 
+    justify-content: center;
+    border-bottom: 3vh solid black; 
 }
 
     #BoxOne{
@@ -19,7 +20,7 @@
     }
 
     #BoxThree{
-        width: 22.5vw;
+        width: 24.5vw;
         background-color: gold;
         height: 15vh;
     }
@@ -37,30 +38,28 @@
 
 #BodyContainer{
     height: 200vh;
-    width: 100vw;
     display: flex;
     flex-direction: row;
 }
 #LeftColumnContainer{
-    background-color: green;
+    background-color: een;
     height: 200vh;
-    width: 22.5vw;
     display: flex;
     flex-direction: row;
 }
     #BoxFourAndSevenContainer{
         #BoxFour{
             background-color: white;
-            height: 75vh;
-            width: 20vw;
-            border-bottom: 5vh solid black;
+            height: 50vh;
+            width: 17.5vw;
+            border-bottom: 3vh solid black;
         }
     
         #BoxSeven{
             background-color: white;
-            height: 125vh;
-            width: 20vw;
-            border-bottom: 5vh solid black;
+            height: 75vh;
+            width: 17.5vw;
+            border-bottom: 3vh solid black;
         }
     }
     
@@ -82,6 +81,7 @@
         background-color: Red;
         height: 100vh;
         width: 52.5vw;
+        border-bottom: solid black 3vh;
     }
 
     #MiddleRightSpacer{
@@ -97,13 +97,13 @@
     }
         #BoxSix{
             width: 22.5vw;
-            height: 55vh;
+            height: 48.5vh;
             background-color: gold;
         }
 
         #BoxEight{
             width: 22.5vw;
-            height: 60vh;
+            height: 48.5vh;
             background-color: white;
         }
 
@@ -114,7 +114,13 @@
         }
 
         .RightColumnVerticalSpacer{
-            height: 5vh;
+            height: 3vh;
             width: 22.5vw;
             background-color: black;
         }
+
+    #BoxNineTenAndElevenContainer{
+        background-color: green;
+        width: 200vh;
+        height: 20vw;
+    }
