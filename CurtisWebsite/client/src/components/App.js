@@ -12,7 +12,6 @@ function App() {
         <div id="SpacerRight"></div>
         <div id="BoxThree"></div>
       </div>
-      <div id="MiddleAndMiddleBottom">
       <div id="BodyContainer">
         <div id="LeftColumnContainer">
           <div id="BoxFourAndSevenContainer">
@@ -21,21 +20,26 @@ function App() {
           </div>
           <div id="MiddleLeftSpacer"></div>
         </div>
-        <div id="MiddleAndRightContainer">
-            <div id="BoxFive"></div>
-            <div id="MiddleRightSpacer"></div>
-          <div id="BoxSixAndEightContainer">
-            <div id="BoxSix"></div>
-            <div className="RightColumnVerticalSpacer"></div>
-            <div id="BoxEight"></div>
-            <div className="RightColumnVerticalSpacer"></div>
-            <div id="BoxEleven"></div>
-            <div className="RightColumnVerticalSpacer"></div>
+        <div id="MiddleAndMiddleBottom">
+          <div id="MiddleAndRightContainer">
+              <div id="BoxFive"></div>
+              <div id="MiddleRightSpacer"></div>
+            <div id="BoxSixAndEightContainer">
+              <div id="BoxSix"></div>
+              <div className="RightColumnVerticalSpacer"></div>
+              <div id="BoxEight"></div>
+              <div className="RightColumnVerticalSpacer"></div>
+              <div id="BoxEleven"></div>
+              <div className="RightColumnVerticalSpacer"></div>
+            </div>
           </div>
-        </div>
-        <div id="MiddleBottomContainer">
-        <div id="BoxNineTenAndElevenContainer"></div>
-        </div>
+          <div id="MiddleBottomContainer">
+          <div id="BoxNineTenAndElevenContainer">
+            <div id="BoxNine"></div>
+            <div id="NineTenSpacer"></div>
+            <div id="BoxTen"></div>
+          </div>
+          </div>
         </div>
       </div>
 
