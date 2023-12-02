@@ -6,36 +6,29 @@
     justify-content: center;
     border-bottom: 3vh solid black; 
 }
-
     #BoxOne{
         width: 27.5vw;
         background-color: white;
         height: 15vh;
     }
-
     #BoxTwo{
         width: 50vw;
         background-color: white;
         height: 15vh;
     }
-
     #BoxThree{
         width: 24.5vw;
         background-color: gold;
         height: 15vh;
     }
-
-
     #SpacerLeft{
         width: 2.5vw;
         background-color: black;
     }
-
     #SpacerRight{
         width: 2.5vw;
         background-color: black;
     }
-
 #BodyContainer{
     height: 200vh;
     display: flex;
@@ -62,7 +55,6 @@
             border-bottom: 3vh solid black;
         }
     }
-    
 
     #MiddleLeftSpacer{
         background-color: black;
@@ -70,57 +62,79 @@
         width: 2.5vw;
     }
 
-#MiddleAndRightContainer{
-    background-color: white;
-    height: 100vh;
-    width: 80vw;
+#MiddleAndMiddleBottom{
     display: flex;
-    flex-direction: row;
-}
-    #BoxFive{
-        background-color: Red;
+    flex-direction: column;
+}    
+    #MiddleAndRightContainer{
+        background-color: white;
         height: 100vh;
-        width: 52.5vw;
-        border-bottom: solid black 3vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
     }
-
-    #MiddleRightSpacer{
-        background-color: black;
-        height: 155vh;
-        width: 2.5vw;
-    }
-    
-    #BoxSixEightAndElevenContainer{
-        width: 22.5vw;
-        height: 200vh;
-        background-color: gray;
-    }
-        #BoxSix{
-            width: 22.5vw;
-            height: 48.5vh;
-            background-color: gold;
+        #BoxFive{
+            background-color: Red;
+            height: 100vh;
+            width: 52.5vw;
+            border-bottom: solid black 3vh;
         }
 
-        #BoxEight{
-            width: 22.5vw;
-            height: 48.5vh;
-            background-color: white;
-        }
-
-        #BoxEleven{
-            width: 22.5vw;
-            height: 25vh;
-            background-color: white;
-        }
-
-        .RightColumnVerticalSpacer{
-            height: 3vh;
-            width: 22.5vw;
+        #MiddleRightSpacer{
             background-color: black;
+            height: 155vh;
+            width: 2.5vw;
         }
+        
+        #BoxSixEightAndElevenContainer{
+            width: 22.5vw;
+            height: 200vh;
+            background-color: gray;
+        }
+            #BoxSix{
+                width: 22.5vw;
+                height: 48.5vh;
+                background-color: gold;
+            }
 
-    #BoxNineTenAndElevenContainer{
-        background-color: green;
-        width: 200vh;
-        height: 20vw;
-    }
+            #BoxEight{
+                width: 22.5vw;
+                height: 48.5vh;
+                background-color: white;
+            }
+
+            #BoxEleven{
+                width: 22.5vw;
+                height: 25vh;
+                background-color: white;
+            }
+
+            .RightColumnVerticalSpacer{
+                height: 3vh;
+                width: 22.5vw;
+                background-color: black;
+            }
+
+        #BoxNineTenAndElevenContainer{
+            margin-top: 2.5vh;
+            width: 52.5vw;
+            height: 30vh;
+            display: flex;
+            flex-direction: row;
+        }
+            #BoxNine{
+                width: 25vw;
+                height: 30vh;
+                background-color: rgb(3, 3, 128);
+            }
+
+            #BoxTen{
+                width: 25vw;
+                height: 30vh;
+                background-color: white;
+            }
+            #NineTenSpacer{
+                height: 30vh;
+                width: 2.5vw;
+                background-color: black;
+            }
