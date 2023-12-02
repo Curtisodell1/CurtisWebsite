@@ -12,6 +12,7 @@ function App() {
         <div id="SpacerRight"></div>
         <div id="BoxThree"></div>
       </div>
+      <div id="MiddleAndMiddleBottom">
       <div id="BodyContainer">
         <div id="LeftColumnContainer">
           <div id="BoxFourAndSevenContainer">
@@ -21,8 +22,8 @@ function App() {
           <div id="MiddleLeftSpacer"></div>
         </div>
         <div id="MiddleAndRightContainer">
-          <div id="BoxFive"></div>
-          <div id="MiddleRightSpacer"></div>
+            <div id="BoxFive"></div>
+            <div id="MiddleRightSpacer"></div>
           <div id="BoxSixAndEightContainer">
             <div id="BoxSix"></div>
             <div className="RightColumnVerticalSpacer"></div>
@@ -32,7 +33,13 @@ function App() {
             <div className="RightColumnVerticalSpacer"></div>
           </div>
         </div>
+        <div id="MiddleBottomContainer">
+        <div id="BoxNineTenAndElevenContainer"></div>
+        </div>
+        </div>
       </div>
+
+      
       <div></div>
       <div></div>
       <div></div>
