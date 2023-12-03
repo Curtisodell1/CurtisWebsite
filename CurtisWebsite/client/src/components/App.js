@@ -18,10 +18,10 @@ function App() {
             <div id="BoxFour"></div>
             <div id="BoxSeven"></div>
           </div>
-          <div id="MiddleLeftSpacer"></div>
         </div>
         <div id="MiddleAndMiddleBottom">
           <div id="MiddleAndRightContainer">
+              <div id="MiddleLeftSpacer"></div>
               <div id="BoxFive"></div>
               <div id="MiddleRightSpacer"></div>
             <div id="BoxSixAndEightContainer">
