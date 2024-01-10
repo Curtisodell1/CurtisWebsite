@@ -1,5 +1,9 @@
 body {
     background-color: beige;
     margin: 0%;
-    border: 20px solid rgb(58, 56, 56);
+
+    border-left:  solid 1.6svw rgb(58, 56, 56);
+    border-right:  solid 1.6svw rgb(58, 56, 56);
+    border-top:  solid 1.6svh rgb(58, 56, 56);
+    border-bottom:  solid 1.6svh rgb(58, 56, 56);
 }
