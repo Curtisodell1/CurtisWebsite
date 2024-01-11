@@ -25,15 +25,14 @@ function App() {
           <div id="MiddleAndRightContainer">
               <div id="BoxFive"></div>
               <div id="MiddleRightSpacer"></div>
-            <div id="BoxSixAndEightContainer">
-              <div id="BoxSix"></div>
-              <div className="RightColumnVerticalSpacer"></div>
-              <div id="BoxEight"></div>
-              <div className="RightColumnVerticalSpacer"></div>
-              <div id="BoxEleven"></div>
-              <div className="RightColumnVerticalSpacer"></div>
-            </div>
+              <div id="BoxSixAndEightContainer">
+                <div id="BoxSix"></div>
+                <div className="RightColumnVerticalSpacer"></div>
+                <div id="BoxEight"></div>
+                <div className="RightColumnVerticalSpacer"></div>
+                <div id="BoxEleven"></div>
           </div>
+        </div> 
           <div id="MiddleBottomContainer">
           <div id="BoxNineTenAndElevenContainer">
             <div id="BoxNine"></div>
@@ -42,14 +41,8 @@ function App() {
           </div>
           </div>
         </div>
+      <div id="BottomRow"></div>
       </div>
-
-      
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <h1>Hi</h1>
     </div>
   )
 }
