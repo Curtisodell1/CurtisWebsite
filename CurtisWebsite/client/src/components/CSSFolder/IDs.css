@@ -41,7 +41,7 @@
         background-color: blueviolet;
 }
 #LeftColumnContainer{
-    height: 150svh;
+    height: 128svh;
     width: 19svw;
     background-color: green;
     display: flex;
@@ -52,22 +52,21 @@
     }
         #BoxFour{
             background-color: white;
-            height: 50vh;
+            height: 50svh;
             width: 19svw;
             border-bottom: 3vh solid black;
         }
     
         #BoxSeven{
             background-color: white;
-            height: 75vh;
+            height: 75svh;
             width: 19svw;
-            border-bottom: 3vh solid black;
         }
     
 
     #MiddleLeftSpacer{
         background-color: black;
-        height: 210vh;
+        height: 128vh;
         width: 1svw;
     }
 
@@ -92,7 +91,7 @@
 
         #MiddleRightSpacer{
             background-color: black;
-            height: 155vh;
+            height: 128svh;
             width: 2svw;
         }
         
@@ -108,8 +107,8 @@
             }
 
             #BoxEight{
-                width: 22.5vw;
-                height: 48.5vh;
+                width: 30svw;
+                height: 49svh;
                 background-color: white;
             }
 
@@ -120,31 +119,43 @@
             }
 
             .RightColumnVerticalSpacer{
-                height: 3vh;
-                width: 22.5vw;
+                height: 2.5svh;
+                width: 30svw;
                 background-color: black;
             }
 
         #BoxNineTenAndElevenContainer{
             margin-top: 2.5vh;
-            width: 52.5vw;
-            height: 30vh;
+            width: 47svw;
+            height: 25.5vh;
             display: flex;
             flex-direction: row;
         }
             #BoxNine{
-                width: 30vw;
-                height: 30vh;
+                width: 22svw;
+                height: 25.5svh;
                 background-color: rgb(3, 3, 128);
             }
 
             #BoxTen{
-                width: 30vw;
-                height: 30vh;
+                width: 22.1svw;
+                height: 25.5svh;
                 background-color: white;
             }
             #NineTenSpacer{
-                height: 30vh;
-                width: 2.5vw;
+                height: 25.5svh;
+                width: 2svw;
                 background-color: black;
             }
+
+/* Need to find a spot to fit this comfortably */
+
+#MiddleBottomContainer{
+    width: 77svw;
+}
+
+#BottomRow{
+    width: 100svw;
+    height: 2svh;
+    background: black;
+}
