@@ -32,13 +32,23 @@
         background-color: black;
     }
 
-#BodyContainer{
-        height: 100svh;
+#BigBodyContainer{
+        height: 147svh;
         width: 97svw;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        background-color: blueviolet;
+        background-color: greenyellow;
+        border: solid 1.6svw rgb(58, 56, 56);
+  
+        
+}
+#BodyContainer{
+    width: 97svw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: blueviolet;
 }
 #LeftColumnContainer{
     height: 128svh;
@@ -113,8 +123,8 @@
             }
 
             #BoxEleven{
-                width: 22.5vw;
-                height: 25vh;
+                width: 30svw;
+                height: 25.5svh;
                 background-color: white;
             }
 
@@ -152,10 +162,14 @@
 
 #MiddleBottomContainer{
     width: 77svw;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
 
-#BottomRow{
+#BottomRowSpacer{
     width: 100svw;
     height: 2svh;
     background: black;
 }
+

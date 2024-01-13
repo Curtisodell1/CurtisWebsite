@@ -4,8 +4,8 @@ import { Switch, Route } from "react-router-dom";
 function App() {
   
   return (
-    <div id="BodyContainer">
 
+    <div id="BigBodyContainer">
       <div id="TopRowContainer">
         <div id="BoxOne"></div>
         <div id="SpacerLeft"></div>
@@ -34,14 +34,16 @@ function App() {
           </div>
         </div> 
           <div id="MiddleBottomContainer">
-          <div id="BoxNineTenAndElevenContainer">
-            <div id="BoxNine"></div>
-            <div id="NineTenSpacer"></div>
-            <div id="BoxTen"></div>
-          </div>
+            <div id="BoxNineTenAndElevenContainer">
+              <div id="BoxNine"></div>
+              <div id="NineTenSpacer"></div>
+              <div id="BoxTen"></div>
+            </div>
+            <div id="BoxEleven"></div>
           </div>
         </div>
-      <div id="BottomRow"></div>
+      <div id="BottomRowSpacer"></div>
+        <div id="BottomRowContainer"></div>
       </div>
     </div>
   )
