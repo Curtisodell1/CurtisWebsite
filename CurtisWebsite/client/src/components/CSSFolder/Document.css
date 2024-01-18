@@ -3,7 +3,6 @@ body {
     margin: 0%;
     animation: ease-out page-load 3000ms;
     opacity: 100%;
-
 }
 
 @keyframes page-load {
